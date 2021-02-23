@@ -4,9 +4,122 @@
 
 html {
   height: 100%;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  font-size: 0.9rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.first-section input[type='range'] {
+  width: 300px;
+  height: 4px;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: white;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-ranges div {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.color-info {
+  margin: 1rem;
+}
+
+.color-info div {
+  display: flex;
+  justify-content: center;
+}
+
+.color-info div p {
+  margin: 0.8rem;
+}
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+  background-color: white;
+  border: 0.1rem black solid;
+}
+
+.color-box div {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  width: 50%;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.first-section P {
+  border: 0.1rem solid black;
+  width: 2rem;
+  border-radius: 0.3rem;
+  background-color: white;
+  color: black;
+  padding: 0.3rem;
+}
+
+p:hover {
+  cursor: default;
+}
+
+.color-info p {
+  border: 0.1rem solid black;
+  width: 14rem;
+  border-radius: 0.3rem;
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
 }
