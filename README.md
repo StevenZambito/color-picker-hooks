@@ -1,4 +1,4 @@
-# [Color Picker Hooks](https://color-picker-hooks-stevensmacbook.netlify.app/)
+# [Color Picker](https://color-picker-hooks-stevensmacbook.netlify.app/)
 
 <img src="src/assets/ColorPicker.gif">
 
